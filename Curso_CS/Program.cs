@@ -188,8 +188,11 @@ namespace Curso_CS
             {
                 string name; double salary; int id;
                 Console.WriteLine("Id");
+                id = int.Parse(Console.ReadLine());
                 Console.WriteLine("Name");
+                name = Console.ReadLine();
                 Console.WriteLine("Salary");
+                salary = double.Parse(Console.ReadLine());
             }
         }
         static void Main(string[] args)
